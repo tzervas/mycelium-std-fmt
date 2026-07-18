@@ -12,11 +12,11 @@ publish = false
 workspace = true
 
 [dependencies]
-mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "781d3fcceba82acfe6b0eb46650513bd78a2416b" }
-mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "580b64316774e22f0b7d5d495ca1d9b9d6536a60" }
+mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "46d2515cbd86d2ae4d1365f4adcd2796737e9f0b" }
+mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "376762cc17853e1582684ececf9e760426bcfb0c" }
 # fmt.to_json/from_json delegate to std.io's one canonical JSON projection (M-514;
 # ratified fmt→io delegation 2026-06-19 — spec §7-Q1 / README §5). KC-3: no new trusted code.
-mycelium-std-io = { git = "https://github.com/tzervas/mycelium-std-io", rev = "b5ffc4bcc949cb40b4eb5d96fa236c95d3e23c9c" }
+mycelium-std-io = { git = "https://github.com/tzervas/mycelium-std-io", rev = "d2bf3d585f5d2e9d08f21df723547b7c35a26d68" }
 serde.workspace = true
 serde_json.workspace = true
 
