@@ -16,7 +16,7 @@ mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "57ef4
 mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "19398dfd847eb9a5fc518149a714d7646abbb316" }
 # fmt.to_json/from_json delegate to std.io's one canonical JSON projection (M-514;
 # ratified fmt→io delegation 2026-06-19 — spec §7-Q1 / README §5). KC-3: no new trusted code.
-mycelium-std-io = { git = "https://github.com/tzervas/mycelium-std-io", rev = "f91b512d7661269f40786ad65f287e6016024042" }
+mycelium-std-io = { git = "https://github.com/tzervas/mycelium-std-io", rev = "96d43a98a71a6ed0963f186c60c82695ec202751" }
 serde.workspace = true
 serde_json.workspace = true
 
